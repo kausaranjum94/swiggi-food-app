@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+.AppBranding img {
+  width: 150px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.AppNavigation nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.AppNavigation nav a:hover{
+  color: #e17100;
+}
+.AppProductCard img {
+  width: 300px;
+  height: 256px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* ------------ Shimmer --------------*/
+.ShimmerCardImage{
+  width: 237px;
+  height: 256px;
+  background-color: #c0bfbf;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.ShimmerCardHeading{
+  width: 180px;
+  height: 20px;
+  background-color: #c0bfbf;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.ShimmerCardDetails{
+  width: 80px;
+  height: 20px;
+  background-color: #c0bfbf;
+  border-radius: 10px;
+}
+/* ------------ About --------------*/
+.aboutBio {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.aboutBioImage img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.aboutBioContent {
+  display: flex;
+  align-items: center;
+}
+.aboutBioDetail {
+  text-align: left;
+  margin-left: 20px;
+}
+/* ------------ Restaurant Menu Page --------------*/
+li.itemsCardList {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.restaurantMenuPage {
+  max-width: 54%;
+}
+li.itemsCardList {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.itemsCardImage img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  /* margin-left: 20px; */
+}
+.itemsCardImage {
+  margin-left: 10px;
+}
