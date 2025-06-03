@@ -36,8 +36,8 @@ function Content() {
     const jsonData =  await apiData.json();
 
     // console.log(jsonData);
-    setRestaurantList(jsonData.data.cards[1].card.card.gridElements.infoWithStyle.restaurants)
-    setfilteredResList(jsonData.data.cards[1].card.card.gridElements.infoWithStyle.restaurants)
+    setRestaurantList(jsonData.data.cards[3].card.card.gridElements.infoWithStyle.restaurants)
+    setfilteredResList(jsonData.data.cards[3].card.card.gridElements.infoWithStyle.restaurants)
   }
 
   // if(restaurantList === ""){
